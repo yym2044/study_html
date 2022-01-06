@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="kor">
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>form3</title>
+
+</head>
+<body>
+
+	<form action="./formResult.html" method="get" id="form" name="form">
+		<input type="text" id="nickname" name="nickname" autocomplete="off"> 
+		<input type="button" id="button" name="button" value="제출" onclick="here();">
+
+	</form>
+
+	<script type="text/javascript">
+		function here() {
+			alert("nickname: " + document.getElementById("nickname").value);
+			document.getElementById("form").submit();
+		}
+	</script>
+
+</body>
+</html>
