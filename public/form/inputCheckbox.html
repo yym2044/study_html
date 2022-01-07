@@ -7,16 +7,24 @@
 
 	<form action="" method="get" id="" name="" enctype="multipart/form-data">
 	
-<!-- 
+
 		<input type="checkbox" id="" name="">
-		<input type="checkbox" id="" name="" checked>
- -->		
-		<input type="checkbox" id="" name="checkbox">약관동의
+		<input type="checkbox" id="" name="" checked><hr>
+		
+		<input type="checkbox" id="" name="checkbox">약관동의<br><hr>
+		<!-- 체크가 되어있지 않으면 데이터가 넘어가지 않는다 -->
+		
+		(value 사용함)<br>취미<br>
+		<input type="checkbox" id="" name="hobby">영화보기
+		<input type="checkbox" id="" name="hobby">음악감상<br><hr>
+		<!-- value 구문을 사용하면 체크할 경우에 value값이 데이터로 넘어간다. -->
+		(value 사용 안 함)<br>취미<br>
 		<input type="checkbox" id="" name="hobby" value="movie">영화보기
 		<input type="checkbox" id="" name="hobby" value="music">음악감상
 		
-		<input type="submit" value="제출">
-		<!-- 체크가 되어있지 않으면 데이터가 넘어가지 않는다 -->
+		<hr>
+		<br><input type="submit" value="제출">
+		
 	</form>
 
 </body>
