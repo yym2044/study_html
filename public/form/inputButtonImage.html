@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head></head>
+<body>
+
+
+	<form action="" method="get" id="form" name="" enctype="multipart/form-data">
+
+		<input type="text" id="id" name="name"> 
+		
+		<input type="button" value="Á¦Ãâ" onclick="here();">
+		
+		<input type="image" src="../2.image/button1.png" width="50">
+		
+	</form>
+
+	<script type="text/javascript">
+		/* validation */
+		function here() {
+			alert("id: " + document.getElementById("id").value);
+			document.getElementById("form").submit();
+		}
+	</script>
+
+
+</body>
+</html>
