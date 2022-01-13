@@ -9,16 +9,39 @@
 
 
 <body onload="init();">
-
-	<video src="./CountingStars.mp4" controls width="500px"></video>
-
-
-<script type="text/javascript">
-	function init() {
-		/* alert("나는 멋쟁이!~!!"); */
-	}
+	default
+	<br>
+	<br>
+	<video src="./CountingStars.mp4" controls width="200px"></video>
+	<br>
+	<br> loop
+	<br>
+	<br>
+	<video src="./CountingStars.mp4" controls width="200px" loop></video>
+	<br>
+	<br> muted
+	<br>
+	<br>
+	<video src="./CountingStars.mp4" controls width="200px" muted></video>
+	<br>
+	<br> auto play
+	<br>
+	<br>
+	<video src="./CountingStars.mp4" controls width="200px" muted autoplay="autoplay"></video>
 	
-</script>
+	<video controls width="200px;" autoplay muted>
+		<source src="./CountingStars.mp4">
+		<source src="./CountingStars.webm">
+		<source src="./CountingStars.egg">
+	</video>
+
+
+
+	<script type="text/javascript">
+		function init() {
+			/* alert("나는 멋쟁이!~!!"); */
+		}
+	</script>
 
 
 
