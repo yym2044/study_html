@@ -7,16 +7,37 @@
 <style type="text/css">
 
 	#aaa {
-		width: 90px;
-		background-color: aqua;
+		width: 190px;
+		height: 100px;
+		background-color: red;
+	}
+	
+	#bbb {
+		width: 100px;
+		height: 100px;
+		background-color: blue;
 		
-		/* position: static; */
-		/* position: absolute; */
-		position: fixed; /* 오 신기 */
+		/* position: absolute; 기준점이
+		position: relative; 기준점이 */
 		
+		position: relative;
+		top: 50px;
+		left: 50px;
+		
+	}
+	
+	#ccc {
+		width: 100px;
+		height: 100px;
+		background-color: gray;
+	}
+
+	#ddd {
+		background-color: orange;
+		position: absolute;
 		top: 300px;
-		left: 300px;
-		
+		left: 500px;
+	
 	}
 
 </style>	
@@ -25,36 +46,12 @@
 </head>
 
 <body>
-	<div id="aaa">영민</div>
-	<div id="bbb">지현</div>
-	<div id="ccc">동건</div>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
-	<p>asdfadsfadsfadsfasdfasdfasdfasfdasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</p>
+
+	<div id="ddd">asdasf
+		<div id="aaa">원영</div>
+		<div id="bbb">원영</div>
+		<div id="ccc">원영</div>
+	</div>
 
 </body>
 
